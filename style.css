@@ -1,6 +1,127 @@
-h1{
- color: brown;
- background-color: chartreuse;
+.topmenu{
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1;
+}
 
+.icons{
+    margin-top: 10px;
+    height:20px ;
+    width: 20px;
+}
+.marquee1{
+    background-color:darkblue;
+    padding: 0 150px 0 150px;
+
+}
+.intro{
+     text-align: center;
+
+}
+
+.para{
+    width: 750px;
+    text-align: center;
+    margin: 10px auto;
+
+}
+
+.box{
+    display: table-cell;
+    width: 250px;
+    height: 200px;
+    /* padding: 10px; */
+    /* border: 3px dashed black; */
+    align-content: flex-end;
+    text-align: center;
+   
+    color: white;
+}
+.blue{
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    background-color: #2755e9;
+   
+    
+}
+.icon2{
+    width:40px;
+
+}
+.bluecen{
+    vertical-align: bottom;
+
+}
+.doing{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgray;
+
+}
+.db{
+    background-color: white;
+    text-shadow: 2px 2px 5px #2755e9;
+    width: 300px;
+    height: 200px;
+    margin: 25px auto;
+    text-align: center; 
+    /* width: 250px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    text-align: center;
+}
+
+.whole{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.mission{
+    flex :3 ;
+    padding: 10px;
+    margin: 10px ;
+    /* width : 750px; */
+}
+.mission1,.mission2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-self: left;
+    justify-content: space-around;
+
+}
+
+
+.mission1 div, .mission2 div {
+    vertical-align: middle;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+    background-color: lightgray;
+   width :300px;
+   height: 75px; 
+}
+.mission1,.mission2{
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.murqi{
+    flex :1
+   }
+
+.botm{
+    display: flex;
+    color: white;
+    background-color: blue;
+    height: 30px;
+    padding: 5px 10px 5px 30px;
+    font-size: 15px;
 
 }
